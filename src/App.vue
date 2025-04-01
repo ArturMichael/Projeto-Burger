@@ -2,19 +2,19 @@
   <div>
     <NavBar :logo="logo_src" :alt="app_name"/>
     <router-view/>
-    <FooTer/>
+   
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue';
-import FooTer from './components/FooTer.vue';
+
 
 export default {
   
   components: {
     NavBar,
-    FooTer
+    
   },
   data() {
     return {
